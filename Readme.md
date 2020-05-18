@@ -2,7 +2,7 @@
 
 # Codewonders Dotfiles
 
-### A bunch of configurations I use regularly during development.
+### A collection of configurations and files I use regularly during development.
 
 ### [See More About Me](https://codewonders.dev)
 
