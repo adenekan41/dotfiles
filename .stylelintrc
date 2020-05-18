@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "/usr/local/lib/node_modules/stylelint-config-recommended",
+    "/usr/local/lib/node_modules/stylelint-config-styled-components"
+  ],
+  "processors": ["/usr/local/lib/node_modules/stylelint-processor-styled-components"],
+  "rules": {
+      "no-descending-specificity": null
+  }
+}

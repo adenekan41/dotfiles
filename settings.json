@@ -1,0 +1,36 @@
+{
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": true,
+  "workbench.colorCustomizations": {},
+  "explorer.confirmDelete": false,
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontSize": 12.5,
+  "editor.fontFamily": "DankMono-Italic",
+  "prettier.useTabs": true,
+  "prettier.bracketSpacing": true,
+  "editor.fontWeight": "500",
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "jshint.enable": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.activeIconPack": "angular",
+  "files.associations": {
+    "*.cw": "html"
+  },
+  "gitlab-notifications.privateToken": "eUcwbs2coVyXRb9Kmrwa",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.panel.defaultLocation": "right"
+}
