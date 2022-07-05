@@ -1,3 +1,4 @@
+
 # cd
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -19,19 +20,13 @@ alias copy='pbcopy'
 alias paste='pbpaste'
 
 # change bash profile
-alias chbp='code ~/dev/dotfiles/.bash_profile'
+alias chbp='code ~/.bash_profile'
 
 # eslint
 alias lint='eslint --ignore-path .gitignore .'
 
-# ssh into school server
-alias s='ssh pcoursey@lovecraft.cs.nmt.edu'
-
 # delete a remote branch
 alias drbranch='git push origin --delete'
-
-# alias homebrew python
-alias python='python3'
 
 # git aliases
 alias gs='git status'
@@ -52,24 +47,14 @@ alias grs='git remote set-url origin'
 #
 
 # Make a folder and navigate to it
-md() {
+mkfolder() {
   mkdir -p -- "$1"
   cd -P -- "$1"
 }
 
 # Go to a <repo> in ~/dev
-dev() {
-  cd "$HOME/dev/$1"
-}
-
-# Go to a <repo> in ~/fork
-fork() {
-  cd "$HOME/fork/$1"
-}
-
-# Upload a file to 0x0.st
-0x0() {
-  curl -F "file=@$1" https://0x0.st
+projects() {
+  cd "$HOME/Documents/projects/$1"
 }
 
 # Add a blank tile to the dock
@@ -77,6 +62,13 @@ tile() {
   defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
   killall Dock
 }
+
+# Add stacks tile to the dock
+stacks() {
+  defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }'
+    killall Dock
+}
+
 
 # Convert .png to .icns
 ptoi() {
